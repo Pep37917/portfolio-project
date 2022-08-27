@@ -1,0 +1,300 @@
+@media screen and (max-width: 820px) {
+    header {
+        padding: 0;
+    }
+    header .right-header {
+        padding: 2rem !important;
+    }
+
+    .theme-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .section {
+        padding: 2rem 2.5rem !important;
+    }
+    
+    /* about */
+    .about-container {
+        grid-template-columns: 1fr;
+        .right-about {
+            padding-top: 2.5rem;
+            place-items: center;
+            .pic-shape {
+                display: none;
+            }
+            img {
+                margin: 0 auto;
+            }
+        }
+        .left-about {
+            padding-right: 0;
+            text-align: center;
+            h4 {
+                font-size: 1.5rem;
+            }
+            p {
+                padding-left: 0;
+            }
+            .btn-container {
+                justify-content: center;
+            }
+        }
+    }
+
+    .timeline {
+        padding-bottom: 6rem;
+        grid-template-columns: 1fr;
+    }
+
+    /* projects */
+    .projects {
+        grid-template-columns: 1fr;
+        padding: 0 5rem;
+        margin-bottom: 6rem;
+    }
+
+    /* blogs */
+    .blog-container {
+        grid-template-columns: 1fr;
+        padding: 2rem 4rem 6rem 4rem;
+        margin-top: 5rem;
+    }
+
+    /* main title */
+    .main-title {
+        h2 {
+            font-size: 2rem;
+            .bg-text {
+                font-size: 3.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    header {
+        padding: 0 !important;
+    }
+    .section {
+        padding: 7rem 11rem;
+    }
+    .content-container {
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 5rem;
+        .right-contact {
+            margin-left: 0;
+            .ic2 {
+                flex-direction: column;
+            }
+            .ic2 :last-child {
+                margin-left: 0;
+                margin-top: 1.5rem;
+            }
+        }
+    }
+    /* about */
+    .about-container {
+        grid-template-columns: 1fr;
+        .right-about {
+            padding-top: 2.5rem;
+            place-items: center;
+            .pic-shape {
+                display: none;
+            }
+            img {
+                margin: 0 auto;
+            }
+        }
+        .left-about {
+            padding-right: 0;
+            text-align: center;
+            h4 {
+                font-size: 1.5rem;
+            }
+            p {
+                padding-left: 0;
+            }
+            .btn-container {
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        .right-about {
+            padding-top: 2.5rem;
+        }
+    }
+
+    .pic-shape {
+        display: none;
+    }
+
+     /* main title */
+     .main-title {
+        h2 {
+            font-size: 4rem;
+            .bg-text {
+                font-size: 4.75rem;
+            }
+        }
+    }
+
+     /* projects */
+
+     .projects {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* blogs */
+
+    .blog-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .section {
+        padding: 7rem 6rem;
+    }
+
+     /* header */
+
+     .header-content {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+        min-height: 100vh;
+        .social-icons {
+            top: 85%;
+            left: 27%;
+        }
+    }
+
+    .left-header {
+        .h-shape {
+            display: none;
+        }
+    }
+
+    .right-header {
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name {
+            font-size: 2.5rem !important; 
+        }
+    }
+
+    .header-content .left-header .image {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+       /* controls */
+       .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--clr-gray1);
+        .control {
+            margin: 1rem 1rem;
+        }
+    }
+
+    /* projects */
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    /* blogs */
+    .blog-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* theme button */
+    .theme-btn-container {
+        top: 1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    /* section padding */
+    .section {
+        padding: 2rem !important;
+    }
+
+    /* controls */
+    .control {
+        margin: 0.2rem 0.2rem;
+    }
+
+    /* main title */
+    .main-title {
+        h2 {
+            font-size: 2rem;
+            .bg-text {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    /* header content */
+   .header .right-header {
+        padding: 0 !important;
+   }
+
+   .header-content .left-header .image .sch-logo {
+        width: 100px;
+        height: 100px;
+   }
+
+    /* about section */
+    .left-about {
+        h4 {
+            font-size: 1.5rem;
+        }
+        p {
+            padding: 0.1rem !important;
+        } 
+    }
+
+   .school-img {
+    width: 334px !important;
+    height: 360px !important;
+   }
+
+    /* button */
+    .btn-container {
+        width: 334.4px;
+    }
+
+    /* projects */
+    .projects {
+        padding: 0;
+    }
+
+    /* blogs */
+    .blog-container {
+        padding: 0 0 6rem 0;
+    }
+
+    /* theme button */
+    .theme-btn-container {
+        width: 65px;
+        height: 30px;
+        .theme-btn {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
